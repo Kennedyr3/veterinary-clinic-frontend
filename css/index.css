@@ -325,10 +325,10 @@ section.cont3 p{
 
   /* CT */
   #cta {
-    background-color: #ce1b28;
+    background-color: #424040;
     color: rgba(255, 255, 255, 0.75);
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(124, 117, 117, 0.25)), url(../image/gdw.jpg);
+    background-image: linear-gradient(rgba(8, 87, 97, 0.151), rgba(124, 117, 117, 0.25)), url(../image/gdw.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
