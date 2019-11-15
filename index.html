@@ -20,6 +20,43 @@
           })
     </script>
 
+    <style>
+    .dropbtn {
+  background-color: rgb(22, 126, 129);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #135566;}
+    </style>
+
   </head>
   <body>
     <nav style="z-index: 1;">
@@ -32,6 +69,16 @@
         <li><a href="#">Consultas</a></li>
         <li><a href="#">Serviços</a></li>
         <li><a href="#">Username</a></li>
+
+        <div class="dropdown">
+          <li class="dropbtn">USERNAME 
+            <!-- <i class="fa fa-caret-down"></i> -->
+          </li>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+          </div>
+        </div> 
+
       </ul>
     </nav>
 
@@ -40,93 +87,61 @@
     <p style="font-size: 40px; position: relative; text-align: center;">Bem-vindo(a) à clínica veterinária Heartbeat</p>
 
     <section class="cont">
-    <div style="font-family:Arial, Helvetica, sans-serif; 
-    margin-left: 100px; margin-top: 30px; width: 530px; height:290px; background-color:rgb(255, 255, 255); 
-    border:1px solid rgba(218, 218, 218, 0.24); padding: 20px; text-align: left; position: relative;">
-        <div><img style="position: absolute; margin-left: 100%; border-radius: 5%; height: 350px; margin-top: -30px;" src="image/pessoa.jpg"> </div>
+      
+      <div id="sobre">
+        <div><img style="position: absolute; margin-left: 100%; border-radius: 5%; height: 350px; margin-top: -30px;" src="image/pessoa.jpg"></div>
+        
         <div>
-
-            <b style="font-size: 30px; margin-left:0px; margin-top:50%;">Sobre nós</b><br><br>
-
-            <span>
+          <b style="font-size: 30px; margin-left:0px; margin-top:50%;">Sobre nós</b><br><br>
+          <span>
             Dra Gabriela Giraldi
             Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
             Equipamentos e instalações modernas, aliadas ao alto padrão de higiene, sempre foram a nossa preocupação.
-            Nosso atendimento vai além do consultório, onde você tem acesso ao médico veterinário 24 horas por dia através das mídias sociais, assim estamos à sua disposição principalmente nos momentos emergenciais.</span><br><br><br>
-
-            <span>
+            Nosso atendimento vai além do consultório, onde você tem acesso ao médico veterinário 24 horas por dia através das mídias sociais, assim estamos à sua disposição principalmente nos momentos emergenciais.
+          </span><br><br><br>
+          
+          <span>
               Dra Gabriela Giraldi
               Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
-              </span>
+          </span>
         </div>
-    </div>
-  </section>
+      </div>
+    </section>
 
 
 
     <section class="cont2">
     
         <h1 style="margin-left: 170px; margin-top:0px; padding: 30px;">Serviços:</h1>
-    <div class="publicacao" >
-        <div class="perfil">
+        <div class="publicacao" >
+          <div class="perfil">
             <div class="fotoperfil">
-                <div><img src="image/clinica.jpg" style="background-size:cover;
-                        width:123px; height:123px;
-                        max-width: 100%;
-                        object-fit: cover;
-                        border-radius: 100%;
-                        display: block;
-                        position:relative;
-                        left:50%;
-                        top:50%;
-                        transform: translate(-50%, -50%);">
-                        </div>
-                    </div><!--Final da div re3 -->
-
-                </div><!--Final da div perfil-->
-                <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">
-                Cirurgias</p>
-                  <span style="color: rgb(0, 0, 0); font-weight: bold; margin-left: 50px; " >Se necessário, realizamos vários procedimentos cirúgicos em nossa clínica.
-                    Agende uma consulta.
-                  </span>
-
-            </div><!-- Fim da div publicação-->
-            <div class="publicacaoc">
-                <div class="perfil">
-                    <div class="fotoperfil">
-                        <div><img src="image/clinica.jpg" style="background-size:cover;
-                            width:123px; height:123px;
-                            max-width: 100%;
-                            object-fit: cover;
-                            border-radius: 100%;
-                            display: block;
-                            position:relative;
-                            left:50%;
-                            top:50%;
-                            transform: translate(-50%, -50%);">
-                            </div>
-                        </div><!--Final da div re3 -->
-
-                    </div><!--Final da div perfil-->
-
-                    <h5 style="margin-top:300px; margin-left: 50px;margin-bottom: 30px;">
-                      <span>Vinicius castrações</span></h5>
-
-                </div><!-- Fim da div publicação-->
+              <div><img id="cir" src="image/clinica.jpg">
+              </div>
+            </div><!--Final da div fotoperfil -->
+          
+          </div><!--Final da div perfil-->
+          <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
+          <span style="color: rgb(0, 0, 0); font-weight: bold; margin-left: 50px; " >Se necessário, realizamos vários procedimentos cirúgicos em nossa clínica.Agende uma consulta.
+          </span>
+        </div><!-- Fim da div publicação-->
+        
+        <div class="publicacaoc">
+          <div class="perfil">
+            <div class="fotoperfil">
+              <div><img id="cir" src="image/clinica.jpg">
+              </div>
+            </div><!--Final da div re3 -->
+          </div><!--Final da div perfil-->
+          
+          <h5 style="margin-top:300px; margin-left: 50px;margin-bottom: 30px;">
+            <span>Vinicius castrações</span></h5>
+          </div><!-- Fim da div publicação-->
 
                 <div class="publicacaod">
                     <div class="perfil">
                         <div class="fotoperfil">
-                            <div><img src="image/clinica.jpg" style="background-size:cover;
-                            width:123px; height:123px;
-                            max-width: 100%;
-                            object-fit: cover;
-                            border-radius: 100%;
-                            display: block;
-                            position:relative;
-                            left:50%;
-                            top:50%;
-                            transform: translate(-50%, -50%);">
+                            <div><img id="cir" src="image/clinica.jpg">
                             </div>
                         </div><!--Final da div re3 -->
                     </div><!--Final da div perfil-->
@@ -189,20 +204,19 @@
 <section id="cta" class="wrapper" style="margin-bottom:30px; ">
   <div class="inner">
     <h2>Sobe parça</h2>
-    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
   </div>
 </section>
 
-
-                <div id="footer" style="width: 100%; height: 230px; background:rgba(5, 89, 128, 0.8); ">
-
-                <div style="padding: 30px; width: 180px; height: 110px; background-color: rgba(0, 0, 0, 0.247); margin-left: 100px;">
-                  <span style="color:white; margin: 00px; top:10%;">Design by Kennedy</span>
-                  <span style="color:white; ">Industries Kennedy</span>
-                  <span style="color:white; ">Production by Kennedy</span>
-                  
-                </div>
-                </div>
+<div id="footer">
+  <div style="padding: 30px; width: 180px;
+   height: 110px; background-color: rgba(0, 0, 0, 0.247);
+    margin-left: 100px;">
+    <span style="color:white; margin: 00px; top:10%;">Design by Kennedy</span>
+    <span style="color:white; ">Industries Kennedy</span>
+    <span style="color:white; ">Production by Kennedy</span>
+  </div>
+</div>
 
 </body>
 </html>
