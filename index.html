@@ -20,42 +20,7 @@
           })
     </script>
 
-    <style>
-    .dropbtn {
-  background-color: rgb(22, 126, 129);
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 10px 10px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #135566;}
-    </style>
+    
 
   </head>
   <body>
@@ -84,15 +49,20 @@
 
     <section class="sec1"></section>
 
-    <p style="font-size: 40px; position: relative; text-align: center;">Bem-vindo(a) à clínica veterinária Heartbeat</p>
+    <p style="font-size: 40px; position: relative; text-align: center;">
+      Bem-vindo(a) à clínica veterinária Heartbeat
+    </p>
 
     <section class="cont">
-      
       <div id="sobre">
-        <div><img style="position: absolute; margin-left: 100%; border-radius: 5%; height: 350px; margin-top: -30px;" src="image/pessoa.jpg"></div>
+        <div>
+          <img style="position: absolute; margin-left: 100%; border-radius: 5%; height: 350px; margin-top: -30px; width: 500px;" src="image/pessoa.jpg">
+        </div>
         
         <div>
+          
           <b style="font-size: 30px; margin-left:0px; margin-top:50%;">Sobre nós</b><br><br>
+          
           <span>
             Dra Gabriela Giraldi
             Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
@@ -111,10 +81,9 @@
 
 
     <section class="cont2">
-    
-        <h1 style="margin-left: 170px; margin-top:0px; padding: 30px;">Serviços:</h1>
-        <div class="publicacao" >
-          <div class="perfil">
+      <h1 style="margin-left: 170px; margin-top:0px; padding: 30px;">Serviços:</h1>
+      <div class="publicacao" >
+      <div class="perfil">
             <div class="fotoperfil">
               <div><img id="cir" src="image/clinica.jpg">
               </div>
@@ -137,68 +106,55 @@
           <h5 style="margin-top:300px; margin-left: 50px;margin-bottom: 30px;">
             <span>Vinicius castrações</span></h5>
           </div><!-- Fim da div publicação-->
-
-                <div class="publicacaod">
-                    <div class="perfil">
-                        <div class="fotoperfil">
-                            <div><img id="cir" src="image/clinica.jpg">
-                            </div>
-                        </div><!--Final da div re3 -->
-                    </div><!--Final da div perfil-->
-
-                    <h5 style="margin-top:300px; margin-left: 50px;margin-bottom: 30px;"><span>Vinicius castrações</span></h5>
-
-                </div><!-- Fim da div publicação-->
+          
+          <div class="publicacaod">
+            <div class="perfil">
+              <div class="fotoperfil">
+                <div><img id="cir" src="image/clinica.jpg"></div>
+              </div><!--Final da div re3 -->
+            </div><!--Final da div perfil-->
+            <h5 style="margin-top:300px; margin-left: 50px;margin-bottom: 30px;"><span>Vinicius castrações</span></h5>
+          </div><!-- Fim da div publicação-->
    
   </section>
 
 
 <section class="cont3" style="margin-bottom:30px; ">
-                <form action="#" class="login-form">
 
-                      <h1>Agendar consulta</h1>
+  <form action="#" class="login-form">
+<h1>Agendar consulta</h1>
+<div class="txtb">
+  <input type="text">
+  <span data-placeholder="Nome"></span>
+</div>
+<div class="txtb">
+  <input type="text">
+  <span data-placeholder="Celular"></span>
+</div>
+<div class="txtb">
+  <input type="text">
+  <span data-placeholder="Udfine"></span>
+</div>
+<div class="txtb">
+  <input type="text">
+  <span data-placeholder="Mensagem"></span>
+</div>
+<input type="submit" class="logbtn" value="Agendar">
+</section>
 
-                      <div class="txtb">
-                        <input type="text">
-                        <span data-placeholder="Nome"></span>
-                      </div>
+<div id="loginimg"></div>
+</form>
 
-                      <div class="txtb">
-                        <input type="text">
-                        <span data-placeholder="Celular"></span>
-                      </div>
-
-                      <div class="txtb">
-                        <input type="text">
-                        <span data-placeholder="Udfine"></span>
-                      </div>
-
-                      <div class="txtb">
-                        <input type="text">
-                        <span data-placeholder="Mensagem"></span>
-                      </div>
-
-                      <input type="submit" class="logbtn" value="Agendar">
-                    </section>
-
-
-                      <div id="loginimg">
-
-                      </div>
-
-                    </form>
-
-                    <script type="text/javascript">
-                    $(".txtb input").on("focus",function(){
-                      $(this).addClass("focus");
-                    });
-
-                    $(".txtb input").on("blur",function(){
-                      if($(this).val() == "")
-                      $(this).removeClass("focus");
-                    });
-
-                    </script>
+<script type="text/javascript">
+$(".txtb input").on("focus",function(){
+  $(this).addClass("focus")
+  });
+  
+  $(".txtb input").on("blur",function(){
+    if($(this).val() == "")
+    $(this).removeClass("focus");
+    });
+  </script>
 
                     <!-- CTA -->
 <section id="cta" class="wrapper" style="margin-bottom:30px; ">
