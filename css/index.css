@@ -2,6 +2,7 @@ body {
   margin:0;
   padding:0;
   font-family: sans-serif;
+  background-color:white;
 }
 
 /* Navbar */
@@ -71,7 +72,7 @@ nav ul li a:hover {
 section.sec1 {
   width: 100%;
   height: 100vh;
-  background: url('../image/im2.jpg');
+  background: url('../image/what2.jpg');
   /* background: #000 url('../image/Maija_Jesse.jpg') no-repeat; */
   background-size: cover;
 }
@@ -86,7 +87,8 @@ section.sec2 {
 
 section.cont{
   padding: 90px;
-  background: rgb(255, 255, 255);
+  background: #fafafa;
+  margin-bottom: 40px;
   /* background: rgb(145, 145, 145); */
 }
 section.cont h1{
@@ -102,7 +104,8 @@ section.cont p{
 
 section.cont2{
   padding: 10px;
-  
+  background-color: #fafafa;
+  margin-bottom: 40px;
   /* background: rgb(153, 100, 100); */
 }
 section.cont2 h1{
@@ -151,7 +154,7 @@ section.cont3 p {
 }
 
 .publicacao {
-  background-color: rgba(22, 77, 102, 0.856);
+  background-color: #317B9F;
   width: 300px;
   height: 400px;
   position: absolute;
@@ -165,7 +168,7 @@ section.cont3 p {
 }
 
 .publicacaoc {
-  background-color: rgb(255, 255, 255);
+  background-color: #317B9F;
   width: 300px;
   height: 400px;
   position: absolute;
@@ -178,7 +181,7 @@ section.cont3 p {
 }
 
 .publicacaod {
-    background-color: rgb(255, 255, 255);
+    background-color: #317B9F;
     width: 300px;
     height: 400px;
     position: relative;
@@ -348,7 +351,7 @@ section.cont3 p {
     background-color: #424040;
     color: rgba(255, 255, 255, 0.75);
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(8, 87, 97, 0.151), rgba(124, 117, 117, 0.25)), url(../image/gdw.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(53, 49, 49, 0.25)), url(../image/gdw.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
