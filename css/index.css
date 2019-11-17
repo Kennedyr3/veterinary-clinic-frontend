@@ -31,12 +31,13 @@ nav .logo {
 }
 
 nav .logo img {
-  height: 60px;
+  margin-top:5px;
+  height: 50px;
   transition: .5s;
 }
 
 nav.black .logo img {
-  height: 60px;
+  /* height: 52px; */
 }
 
 nav ul {
@@ -75,7 +76,8 @@ nav ul li a:hover {
 section.sec1 {
   width: 100%;
   height: 83vh;
-  background: url('../image/Maija_Jesse.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(53, 49, 49, 0.25)), url('../image/Maija_Jesse.jpg');
+  /* background: url('../image/Maija_Jesse.jpg'); */
   /* background: #000 url('../image/Maija_Jesse.jpg') no-repeat; */
   background-size: cover;
 }
@@ -143,7 +145,7 @@ section.cont2 p{
 
 
 section.cont3 {
-  background: url('../image/Maija_Jesse.jpg');
+  background: url('../image/paisa.jpg');
   width: 100%;
   height: 100vh;
   background-size: cover;
