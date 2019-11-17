@@ -178,8 +178,8 @@ section.cont3 p {
 
 .publicacao {
   background-color: #317B9F;
-  width: 280px;
-  height: 400px;
+  width: 260px;
+  height: 380px;
   position: absolute;
   border: 1px solid;
   border-color:rgb(224, 224, 224);
@@ -187,6 +187,7 @@ section.cont3 p {
   margin-bottom: 30px;
   margin-left: 15%;
   font-family: 'Open-sans' , sans-serif;
+  background-image: url(../image/lin.png);
   
 }
 
@@ -646,9 +647,12 @@ button.black {
 
 
 #textopublic {
-  margin-left: 13%;
-  background-color: rgba(22, 77, 102, 0.021);
-  width: 230px;
+  margin-left: 10%;
+  background-color: rgba(54, 54, 54, 0.432);
+  width: 205px;
+  height: 90px;
+  text-align: center;
+  border-radius: 10px;
 }
 
 
