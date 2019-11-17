@@ -105,6 +105,7 @@ section.cont{
   padding: 30px 0px;
   background: #fafafa;
   margin-bottom: 40px;
+  /* z-index: 1; */
   /* background: rgb(145, 145, 145); */
 }
 section.cont h1{
@@ -188,7 +189,36 @@ section.cont3 p {
   margin-left: 15%;
   font-family: 'Open-sans' , sans-serif;
   background-image: url(../image/lin.png);
+}
+
+.card2 {
+  background-color: #317B9F;
+  width: 260px;
+  height: 380px;
+  position: absolute;
+  border: 1px solid;
+  border-color:rgb(224, 224, 224);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 36%;
+  font-family: 'Open-sans' , sans-serif;
+  background-image: url(../image/lin.png);
   
+}
+
+.card3 {
+  background-color: #317B9F;
+  width: 260px;
+  height: 380px;
+  position: relative;
+  border: 1px solid;
+  border-color:rgb(224, 224, 224);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 58%;
+  font-family: 'Open-sans' , sans-serif;
+  background-image: url(../image/lin.png);
+  margin-bottom: 30px;
 }
 
 .publicacaoc {
