@@ -1,192 +1,195 @@
 <!DOCTYPE html>
 <html lang="br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bem-vindo à Rabbit</title>
-    <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen"/>
-
-    <script type="text/javascript">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bem-vindo à Rabbit</title>
+  <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="css/index.css" media="screen"/>
+  
+  <script type="text/javascript">
     $(window).on('scroll', function(){
       if ($(window).scrollTop()) {
         $('nav').addClass('black');
-        }
-        else
-        {
-          $('nav').removeClass('black');
-          }
-          })
-    </script>
+      }
+      else
+      {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+  
+</head>
+<body>
+  
+  <nav style="z-index: 1;">
+    <div class="logo">
+      <img src="image/paisa.jpg">
+    </div>
+    <ul>
+      <li><a href="consulta.html">Agendar consultas</a></li>
+      <li><a href="#">Consultas</a></li>
+      <li><a href="#">Serviços</a></li>
+      
+      
+      <div class="dropdown">
+        <button class="dropbtn">USERNAME</button>
+        <div class="dropdown-content">
+          <a href="login.html">Sair</a>
+          <a href="sign.html">Cadastro</a>
+        </div>
+      </div> 
+    </div>
+  </div> 
+  
+</ul>
+</nav>
 
-  </head>
-  <body>
-    <nav style="z-index: 1;">
-      <div class="logo">
-        <img src="image/paisa.jpg">
-      </div>
-      <ul>
-        <li><a href="consulta.html">Agendar consultas</a></li>
-        <li><a href="#">Consultas</a></li>
-        <li><a href="#">Serviços</a></li>
-        
-
-        <div class="dropdown">
-          <button class="dropbtn">USERNAME</button>
-          <div class="dropdown-content">
-            <a href="login.html">Sair</a>
-            <a href="sign.html">Cadastro</a>
-           </div>
-        </div> 
-          </div>
-        </div> 
-
-      </ul>
-    </nav>
-
-    <section class="sec1"></section>
+  <section class="sec1">
     
-      <!-- <div class="perfil">
-            <div class="fotoperfil2">
-              <div><img id="cir2" src="image/clinica.jpg">
-              </div>
-            </div>Final da div fotoperfil
-          
-          </div>Final da div perfil -->
-
-      
-        
-        
-
-    <p style="font-size: 40px; position: relative; text-align: center;">
-      Bem-vindo(a) à clínica veterinária Rabbit
-    </p>
-
-    <section class="cont">
-      <div id="sobre">
-        <div>
-          <img style="position: absolute; margin-left: 100%; border-radius: 5%; height: 330px; margin-top: -20px; width: 500px;" src="image/pessoa.jpg">
-        </div>
-        
-        <div>
-          
-          <b style="font-size: 30px; margin-left:0px; margin-top:50%;">Sobre nós</b><br><br>
-          
-          <span>
-            Dra Gabriela Giraldi
-            Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
-            Equipamentos e instalações modernas, aliadas ao alto padrão de higiene, sempre foram a nossa preocupação.
-            Nosso atendimento vai além do consultório, onde você tem acesso ao médico veterinário 24 horas por dia através das mídias sociais, assim estamos à sua disposição principalmente nos momentos emergenciais.
-          </span><br><br><br>
-          
-          <span>
-              Dra Gabriela Giraldi
-              Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
-          </span>
-        </div>
+  </section>
+  
+  <!-- <div class="perfil">
+    <div class="fotoperfil2">
+      <div><img id="cir2" src="image/clinica.jpg">
       </div>
-    </section>
+    </div>
+    
+  </div> -->
+  
+  
 
-
-
-    <section class="cont2">
+  
+  <p style="font-size: 5vh; position: relative; text-align: center;">
+    Bem-vindo(a) à clínica veterinária Rabbit
+  </p>
+  
+  <section class="cont">
+    <div id="sobre">
+      <div class="fotoperfil2">
+        <img id="cir2"style="position: absolute; margin-left: 70vh; border-radius: 5%; height: 330px; margin-top: -50px; width: 500px;" src="image/pessoa.jpg">
+      </div>
       
-      <h1 style="margin-left: 170px; margin-top:0px; padding: 30px;">Nossos Serviços:</h1>
-      
-      <!-- <div id="scroll"> -->
+      <div>
+        
+        <b style="font-size: 5vh; margin-left:0px; margin-top:50%;">Sobre nós</b><br><br>
+        
+        <span>
+          Dra Gabriela Giraldi
+          Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
+          Equipamentos e instalações modernas, aliadas ao alto padrão de higiene, sempre foram a nossa preocupação.
+          Nosso atendimento vai além do consultório, onde você tem acesso ao médico veterinário 24 horas por dia através das mídias sociais, assim estamos à sua disposição principalmente nos momentos emergenciais.
+        </span><br><br><br>
+        
+        <span>
+          Dra Gabriela Giraldi
+          Movida pela paixão à medicina veterinária e apelidada pelos seus clientes como Veveta, tem como missão proporcionar o melhor atendimento clínico, cirúrgico e diagnóstico ao seu amigo pet.
+        </span>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <section class="cont2">
+    
+    <h1 style="margin-left: 170px; margin-top:0px; padding: 30px;">Nossos Serviços:</h1>
+    
+    <!-- <div id="scroll"> -->
       <div class="publicacao" >
-      <div class="perfil">
-            <div class="fotoperfil">
-              <div><img id="cir" src="image/clinica.jpg">
-              </div>
-            </div><!--Final da div fotoperfil -->
+        <div class="perfil">
+          <div class="fotoperfil">
+            <div><img id="cir" src="image/clinica.jpg">
+            </div>
+          </div><!--Final da div fotoperfil -->
           
-          </div><!--Final da div perfil-->
-          <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
-          <div id="textopublic">
+        </div><!--Final da div perfil-->
+        <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
+        <div id="textopublic">
           <span style="color: rgb(255, 255, 255); font-weight: bold;">
             Se necessário, realizamos vários procedimentos cirúgicos em nossa clínica.Agende uma consulta.
           </span>
         </div>
         <button class="bt" style="color: white;margin-left: 35%; margin-top:30px; background-color:rgb(18, 72, 134);
         " >Saiba mais</button>
-        </div><!-- Fim da div publicação-->
+      </div><!-- Fim da div publicação-->
+      
+      <div class="publicacaoc">
+        <div class="perfil">
+          <div class="fotoperfil">
+            <div><img id="cir" src="image/clinica.jpg">
+            </div>
+          </div><!--Final da div re3 -->
+        </div><!--Final da div perfil-->
         
-        <div class="publicacaoc">
-          <div class="perfil">
-            <div class="fotoperfil">
-              <div><img id="cir" src="image/clinica.jpg">
-              </div>
-            </div><!--Final da div re3 -->
-          </div><!--Final da div perfil-->
-          
-          
-          <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
-          <div id="textopublic">
+        
+        <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
+        <div id="textopublic">
           <span style="color: rgb(255, 255, 255); font-weight: bold;">
             Se necessário, realizamos vários procedimentos cirúgicos em nossa clínica.Agende uma consulta.
           </span>
         </div>
-            
-          </div><!-- Fim da div publicação-->
-          
-          <div class="publicacaod">
-            <div class="perfil">
-              <div class="fotoperfil">
-                <div><img id="cir" src="image/clinica.jpg"></div>
-              </div><!--Final da div re3 -->
-            </div><!--Final da div perfil-->
-            <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
-            <div id="textopublic">
-            <span style="color: rgb(255, 255, 255); font-weight: bold;">
-              Se necessário, realizamos vários procedimentos cirúgicos em nossa clínica.Agende uma consulta.
-            </span>
-          </div>
+        
+      </div><!-- Fim da div publicação-->
+      
+      <div class="publicacaod">
+        <div class="perfil">
+          <div class="fotoperfil">
+            <div><img id="cir" src="image/clinica.jpg"></div>
+          </div><!--Final da div re3 -->
+        </div><!--Final da div perfil-->
+        <p style="font-size: 25px; font-weight: bold; margin-top:200px; margin-left: 30%;margin-bottom: 30px;">Cirurgias</p>
+        <div id="textopublic">
+          <span style="color: rgb(255, 255, 255); font-weight: bold;">
+            Se necessário, realizamos vários procedimentos cirúgicos em nossa clínica.Agende uma consulta.
+          </span>
         </div>
-          </div><!-- Fim da div publicação-->
-         <!-- </div> -->
+      </div>
+    </div><!-- Fim da div publicação-->
+    <!-- </div> -->
   </section>
-
-
-<section class="cont3" style="margin-bottom:30px; ">
-
-  <form action="#" class="login-form">
-<h1>Fale com nosco</h1>
-<div class="txtb">
-  <input type="text">
-  <span data-placeholder="Nome"></span>
-</div>
-<div class="txtb">
-  <input type="text">
-  <span data-placeholder="Celular"></span>
-</div>
-<div class="txtb">
-  <input type="text">
-  <span data-placeholder="Udfine"></span>
-</div>
-<div class="txtb">
-  <input type="text">
-  <span data-placeholder="Mensagem"></span>
-</div>
-<input type="submit" class="logbtn" value="Enviar">
-</section>
-
-<div id="loginimg"></div>
-</form>
-
-<script type="text/javascript">
-$(".txtb input").on("focus",function(){
-  $(this).addClass("focus")
-  });
   
-  $(".txtb input").on("blur",function(){
-    if($(this).val() == "")
-    $(this).removeClass("focus");
+  
+  <section class="cont3" style="margin-bottom:30px; ">
+    
+    <form action="#" class="login-form">
+      <h1>Fale com nosco</h1>
+      <div class="txtb">
+        <input type="text">
+        <span data-placeholder="Nome"></span>
+      </div>
+      <div class="txtb">
+        <input type="text">
+        <span data-placeholder="Celular"></span>
+      </div>
+      <div class="txtb">
+        <input type="text">
+        <span data-placeholder="Udfine"></span>
+      </div>
+      <div class="txtb">
+        <input type="text">
+        <span data-placeholder="Mensagem"></span>
+      </div>
+      <input type="submit" class="logbtn" value="Enviar">
+    </section>
+    
+    <div id="loginimg"></div>
+  </form>
+  
+  <script type="text/javascript">
+    $(".txtb input").on("focus",function(){
+      $(this).addClass("focus")
+    });
+    
+    $(".txtb input").on("blur",function(){
+      if($(this).val() == "")
+      $(this).removeClass("focus");
     });
   </script>
 
-                    <!-- CTA -->
+
+<!-- CTA -->
 <section id="cta" class="wrapper" style="margin-bottom:30px; ">
   <div class="inner">
     <h1>Nossa Localização</h1>
@@ -197,12 +200,12 @@ $(".txtb input").on("focus",function(){
 
 <div id="footer">
   <div style="padding: 30px; width: 180px;
-   height: 110px; background-color: rgba(0, 0, 0, 0.247);
-    margin-left: 100px;">
-    <span style="color:white; margin: 00px; top:10%;">Design by Kennedy</span>
-    <span style="color:white; ">Industries Kennedy</span>
-    <span style="color:white; ">Production by Kennedy</span>
-  </div>
+  height: 110px; background-color: rgba(252, 252, 252, 0);
+  margin-left: 100px; color:white; top:10%;">
+  <span>Design by Kennedy</span>
+  <span>Industries Kennedy</span>
+  <span>Production by Kennedy</span>
+</div>
 </div>
 
 </body>
