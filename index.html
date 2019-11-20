@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bem-vindo à Clínica Rabbit</title>
-  <link rel="icon" type="imagem/png" href="image/logo2.png" />
+  <link rel="icon" type="img/png" href="img/logo2.png" />
   <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
   <link rel="stylesheet" type="text/css" href="css/index.css" media="screen"/>
   <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
@@ -27,12 +27,12 @@
   <header>
     <nav style="z-index: 1;">
       <div class="logo" style="cursor: pointer;">
-        <img src="image/logo2.png">
+        <img src="img/logo2.png">
       </div>
       <ul>
         <li><a href="consulta.html">Agendar consultas</a></li>
         <li><a href="#">Consultas</a></li>
-        <li><a href="#">Serviços</a></li>
+        <li><a href="#ancora">Serviços</a></li>
         <div class="dropdown">
           <button class="dropbtn">USERNAME</button>
           <div class="dropdown-content">
@@ -45,25 +45,31 @@
   </header>
   
   <section class="sec1">
-    <h1 style="position:absolute; top: 30%; margin-left: 480px; font-family: 'Alatsi', sans-serif; font-size: 40px; color:white;">
+    <h1 style="position:absolute; top: 200px; margin-left: 35%; font-family: 'Alatsi', sans-serif; font-size: 40px; color:white;">
       Clínica Veterinária Rabbit
     </h1>
+    <!-- <a style="font-size: 40px; margin-left:35%; position: absolute; margin-top: 20%; color:white;">Clinica veterinária Rabbit</a> -->
     
     <a style="margin-left:45%; position: absolute; margin-top: 23%; color:white;">Seu pet em boas mãos</a>
   </section>
-  
-  <p style="font-size: 5vh; position: relative; text-align: center; font-weight: bold;">
+  <div style="width: 1300px; background: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); 
+  position: absolute;
+  margin-top: 800px;">
+  <p style="font-size: 35px; position: relative; text-align: center; font-weight: bold;">
     Bem-vindo(a) à clínica veterinária Rabbit
   </p>
   
   <section class="cont">
     <div id="sobre">
       <div class="fotoperfil2">
-        <img id="cir2"style="position: absolute; margin-left: 70vh; border-radius: 5%; height: 330px; margin-top: -50px; width: 500px;" src="image/pessoa.jpg">
+        <img id="cir2"style="position: absolute; margin-left: 500px; border-radius: 5%; height: 330px; margin-top: -50px; width: 500px;" src="img/pessoa.jpg">
       </div>
       
       <div>
-        <b style="font-size: 5vh; margin-left:0px; margin-top:50%;">Sobre nós:</b><br><br>
+        <b style="font-size: 33px; margin-left:0px; margin-top:50%;">Sobre nós:</b><br><br>
         
         <span>
           Dra Gabriela Giraldi
@@ -82,11 +88,11 @@
   
   
   <section class="cont2">
-    <h1 style="margin-left: 130px; margin-top:0px; padding: 30px;">Nossos Serviços:</h1>
+    <h1 id="ancora" style="margin-left: 130px; margin-top:0px; padding: 30px;">Nossos Serviços:</h1>
     
     <div class="card">
-      <img id="cir" src="image/rab.jpg">
-      <p style="font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(201, 8, 8);">
+      <img id="cir" src="img/rab.jpg">
+      <p style="font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255);">
         Cirurgias
       </p>
       
@@ -97,63 +103,67 @@
         </span>
       </div>
       
-      <button class="bt" style="border-style: groove; padding: 5px 15px; border: none;border-radius: 5px; color: white;margin-left: 32%; margin-top:130px; background-color:rgb(18, 72, 134);">
-        Saiba mais
-      </button>
+      <input  type="submit" value="Saiba mais" class="bt" style=" 
+      padding: 5px 15px; border-radius: 5px; 
+      color: white;margin-left: 32%; margin-top:130px; background-color:rgb(18, 72, 134); cursor: pointer;">
     </div><!-- Fim da div card-->
     
-    <div class="card2" >
-      <p style="font-size: 25px; font-weight: bold; margin-top:90px; margin-left: 30%;margin-bottom: 50px; color:white;">
+    <div class="card2">
+      <img id="cir" src="img/dog2.jpg">
+      <p style="font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255);">
         Cirurgias
       </p>
       
       <div id="textopublic">
-        <span style="color: rgb(255, 255, 255); font-weight: bold; ">
+        <span>
           Se necessário, realizamos vários procedimentos 
           cirúgicos em nossa clínica.Agende uma consulta.
         </span>
       </div>
       
-      <button class="bt" style="border-style: groove; padding: 5px 15px; border: none;border-radius: 5px; color: white;margin-left: 32%; margin-top:50px; background-color:rgb(18, 72, 134);">
-        Saiba mais
-      </button>
-    </div><!-- Fim da div card2-->
+      <input  type="submit" value="Saiba mais" class="bt" style=" 
+      padding: 5px 15px; border-radius: 5px; 
+      color: white;margin-left: 32%; margin-top:130px; background-color:rgb(18, 72, 134); cursor: pointer;">
+        
+    </div><!-- Fim da div card-->
     
     <div class="card3">
-      <p style="font-size: 25px; font-weight: bold; margin-top:90px; margin-left: 30%;margin-bottom: 50px; color:white;">
+      <img id="cir" src="img/cat.jpg">
+      <p style="font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255);">
         Cirurgias
       </p>
       
       <div id="textopublic">
-        <span style="color: rgb(255, 255, 255); font-weight: bold; ">
+        <span>
           Se necessário, realizamos vários procedimentos 
           cirúgicos em nossa clínica.Agende uma consulta.
         </span>
       </div>
       
-      <button class="bt" style="border-style: groove; padding: 5px 15px; border: none;border-radius: 5px; color: white;margin-left: 32%; margin-top:50px; background-color:rgb(18, 72, 134);">
-        Saiba mais
-      </button>
-      
-    </div><!-- Fim da div card3-->
+      <input  type="submit" value="Saiba mais" class="bt" style=" 
+      padding: 5px 15px; border-radius: 5px; 
+      color: white;margin-left: 32%; margin-top:130px; background-color:rgb(18, 72, 134); cursor: pointer;">
+    </div><!-- Fim da div card-->
     
     <div class="card4">
-      <p style="font-size: 25px; font-weight: bold; margin-top:90px; margin-left: 30%;margin-bottom: 50px; color:white;">
+      <img id="cir" src="img/rab.jpg">
+      <p style="font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255);">
         Cirurgias
       </p>
       
       <div id="textopublic">
-        <span style="color: rgb(255, 255, 255); font-weight: bold; ">
+        <span>
           Se necessário, realizamos vários procedimentos 
           cirúgicos em nossa clínica.Agende uma consulta.
         </span>
       </div>
-      <button class="bt" style="border-style: groove; padding: 5px 15px; border: none;border-radius: 5px; color: white;margin-left: 32%; margin-top:50px; background-color:rgb(18, 72, 134);">
-        Saiba mais
-      </button>
-    </div><!-- Fim da div card4-->
+      
+      <input  type="submit" value="Saiba mais" class="bt" style=" 
+      padding: 5px 15px; border-radius: 5px; 
+      color: white;margin-left: 32%; margin-top:130px; background-color:rgb(18, 72, 134); cursor: pointer;">
+    </div><!-- Fim da div card-->
   </section>
-  
+</div><!-- divteste -->
   <!-- CTA -->
   <section id="cta" class="wrapper" style="margin-bottom:30px; ">
     <div class="inner">
