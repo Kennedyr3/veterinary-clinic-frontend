@@ -5,8 +5,19 @@
   <title>Entrar</title>
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
   <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-  
 </head>
+<script>
+  function formatar(mascara, documento){
+    var i = documento.value.length;
+    var saida = mascara.substring(0,1);
+    var texto = mascara.substring(i)
+    
+    if (texto.substring(0,1) != saida){
+      documento.value += texto.substring(0,1);
+    }
+    
+  }
+</script>
 <body>
   
   <section class="sec1"></section>
@@ -14,12 +25,12 @@
   <form action="index.html" class="login-form">
     <h1>Bem-vindo</h1>
     <div class="" id="radiobtn">
-      <input type="radio" name="gender" value="Adm"> Administrador <br>
-      <input type="radio" name="gender" value="cliente" checked> Entrar como cliente
+      <input type="checkbox" name="gender" value="Adm" style=""> Administrador</input><br>
+      <!-- <input type="radio" name="gender" value="cliente" CHECKED style="position:relative; margin-left:120px; margin-top:-30px;"> Entrar como cliente -->
     </div>
     
     <div class="txtb">
-      <input type="number">
+      <input type="cpf" name="cpf" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" >
       <span data-placeholder="Cpf" ></span>
     </div>
     
@@ -27,11 +38,11 @@
       <input type="password">
       <span data-placeholder="Senha"></span>
     </div>
-    <h5>Esqueceu a senha ? remanber</h5>
+    <h5 style="margin-top: -15px; margin-bottom: 15px;">Esqueci a senha ? <a href="#" >Lembrar</a></h5>
     
     <input type="submit" href="index.html" class="logbtn" value="Entrar">
     
-    <div class="bottom-text">Não tem uma conta ? <a href="sign.html">Sign up</a></div>
+    <div class="bottom-text">Não tem uma conta ? <a href="sign.html">Cadastrar</a></div>
     
     <div id="loginimg"></div>
   </form>
