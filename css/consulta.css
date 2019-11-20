@@ -58,7 +58,7 @@ section.sec1 {
 
 .login-form h1 {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 60px;  
 }
 
 .txtb {
@@ -77,12 +77,13 @@ section.sec1 {
   background: none;
   padding: 0 5px;
   height: 40px;
+  
 }
 
 .txtb span::before {
   content: attr(data-placeholder);
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 5px;
   color: #adadad;
   transform: translateY(-50%);
@@ -105,7 +106,6 @@ section.sec1 {
 .focus + span::before {
   top: -5px;
 }
-
 .focus + span::after {
   width: 100%;
 }
@@ -125,6 +125,10 @@ section.sec1 {
   border-radius: 25px;
 }
 
+.logbtn:hover{
+  background-position: right;
+}
+
 .logbtn:hover {
   background-position: right;
 }
@@ -133,4 +137,24 @@ section.sec1 {
   margin-top: 120px;
   text-align: center;
   font-size: 13px;
+}
+
+.txta input{
+  /* border:none; */
+  height: 25px;
+  width: 40px;
+  /* margin-left: 5px;
+  position: relative;*/
+  margin-bottom: 10px;
+}
+
+p {margin: 20px}
+
+select.basic {
+  width: 200px;
+  height: 35px;
+}
+select.simple {
+  background: #f5f5f5;
+  border: 0;
 }
