@@ -9,7 +9,7 @@
 section.sec2 {
   width: 100%;
   height: 100vh;
-  background: url('../image/what2.jpg');
+  background: url('../img/what2.jpg');
   background-size: cover;
 }
 
@@ -113,4 +113,13 @@ body {
 #radiobtn {
   margin-left:5px;
   margin-top:-40px;
+}
+
+#back{
+  margin-left:-5px;
+  margin-top:-50px;
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
 }
