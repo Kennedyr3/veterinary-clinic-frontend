@@ -30,10 +30,6 @@ nav .logo img {
   transition: .5s;
 }
 
-/* nav.black .logo img {
-  height: 52px;
-} */
-
 nav ul {
   float:right;
   margin:0;
@@ -58,19 +54,9 @@ section.sec1 {
   width: 100%;
   height: 650px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(53, 49, 49, 0.25)), url('../img/Maija_Jesse.jpg');
-  /* background: url('../image/Maija_Jesse.jpg'); */
-  /* background: #000 url('../image/Maija_Jesse.jpg') no-repeat; */
   background-size: cover;
   margin-bottom: 1140px;
 }
-
-/* section.sec2 {
-  width: 100%;
-  height: 100vh;
-  background: url('../image/Maija_Jesse.jpg');
-  background: #000 url('../image/Maija_Jesse.jpg') no-repeat;
-  background-size: cover;
-} */
 
 section.cont {
   width: 100%;
@@ -78,10 +64,8 @@ section.cont {
   padding: 30px 0px;
   background: #ffffff;
   margin-bottom: 50px;
-  /* margin-left: 10px; */
-  /* z-index: 1; */
-  /* background: rgb(145, 145, 145); */
 }
+
 section.cont h1 {
   margin: 0;
   padding: 0;
@@ -97,10 +81,8 @@ section.cont2 {
   overflow: auto;
   padding: 10px;
   height: 500px;
-  /* width: 100%; */
   background-color: #ffffff;
   margin-bottom: 5px;
-  /* background: rgb(153, 100, 100); */
 }
 
 section.cont2 h1 {
@@ -148,108 +130,39 @@ section.cont3 p {
 }
 
 .card {
-  /* background-color: #317B9F; */
   width: 260px;
   height: 380px;
   position: relative;
-  /* border: 1px solid; */
-  /* border-color:rgb(224, 224, 224); */
-  /* border-radius: 10px; */
-  /* margin-bottom: 30px; */
   margin-left: 80px;
   font-family: 'Open-sans' , sans-serif;
-  /* background-image: url(../image/rab.jpg); */
 }
 
 .card2 {
-  /* background-color: #317B9F; */
   width: 260px;
   height: 380px;
   position: relative;
-  /* border: 1px solid; */
-  /* border-color:rgb(224, 224, 224); */
-  /* border-radius: 10px; */
-  /* margin-bottom: 30px; */
   margin-left: 373px;
   margin-top:-380px;
   font-family: 'Open-sans' , sans-serif;
-  /* background-image: url(../image/rab.jpg); */
 }
 
 .card3 {
-  /* background-color: #317B9F; */
   width: 260px;
   height: 380px;
   position: relative;
-  /* border: 1px solid; */
-  /* border-color:rgb(224, 224, 224); */
-  /* border-radius: 10px; */
-  /* margin-bottom: 30px; */
   margin-left: 662px;
   font-family: 'Open-sans' , sans-serif;
-  /* background-image: url(../image/rab.jpg); */
   margin-top:-380px;
 }
 
 .card4 {
-  /* background-color: #317B9F; */
   width: 260px;
   height: 380px;
   position: relative;
-  /* border: 1px solid; */
-  /* border-color:rgb(224, 224, 224); */
-  /* border-radius: 10px; */
-  /* margin-bottom: 30px; */
   margin-left: 950px;
   font-family: 'Open-sans' , sans-serif;
-  /* background-image: url(../image/rab.jpg); */
   margin-top:-380px;
 }
-
-/* .card2 {
-  background-color: #317B9F;
-  width: 260px;
-  height: 380px;
-  position: absolute;
-  border: 1px solid;
-  border-color:rgb(224, 224, 224);
-  border-radius: 10px;
-  margin-bottom: 30px;
-  margin-left: 29.4%;
-  font-family: 'Open-sans' , sans-serif;
-  background-image: url(../image/lin.png);
-  
-} */
-
-/* .card3 {
-  background-color: #317B9F;
-  width: 260px;
-  height: 380px;
-  position: absolute;
-  border: 1px solid;
-  border-color:rgb(224, 224, 224);
-  border-radius: 10px;
-  margin-bottom: 30px;
-  margin-left: 50.6%;
-  font-family: 'Open-sans' , sans-serif;
-  background-image: url(../image/lin.png);
-  margin-bottom: 30px;
-}
-
-.card4 {
-  background-color: #317B9F;
-  width: 260px;
-  height: 380px;
-  position: relative;
-  border: 1px solid;
-  border-color:rgb(224, 224, 224);
-  border-radius: 10px;
-  margin-bottom: 30px;
-  margin-left: 73%;
-  font-family: 'Open-sans' , sans-serif;
-  background-image: url(../image/lin.png);
-  margin-bottom: 30px;
-} */
 
 #cir {
   background-size:cover;
@@ -257,13 +170,8 @@ section.cont3 p {
   height: 380px;
   max-width: 100%;
   object-fit: cover;
-  /* border-radius: 100%; */
   display: block;
-  /* position:relative; */
   border-radius: 10px;
-  /* left:50%;
-  top:50%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .dropbtn {
@@ -304,7 +212,6 @@ nav ul li a:hover {
 }
 
 button:hover, .active {
-  /* background-color:#00ff00!important; */
   color:white;
 }
 
@@ -347,8 +254,6 @@ button.black {
   width: 130px;
   width:100%;
   height: 90vh;
-  /* background-image: linear-gradient(360deg,rgb(240, 9, 228),rgb(26, 119, 148),rgb(0, 207, 243)); */
-  /* border-radius:100% ; */
   position: absolute;
   margin-top: 30px;
   padding: 4px;
@@ -356,8 +261,6 @@ button.black {
 
 .fotoperfil2 > div {
   background-color: #fff; 
-  /* width: 130px;
-  height: 130px; */
   position: absolute;
   border-radius: 100%; 
 }
@@ -369,7 +272,6 @@ button.black {
   height:90vh;
   max-width: 100%;
   object-fit: cover;
-  /* border-radius: 100%; */
   display: block;
   position:relative;
   /* left:50%;
@@ -381,16 +283,8 @@ footer {
   width: 100%;
   height: 30vh;
   background:#255F9A;
-  
-  /* width: 100%; */
-  /* position: fixed; */
   bottom: 0; 
-  /* right: 0;  */
-  
   color: white;
-  /* height: 40px; */
-  /* display: flex; */
-  
 }
 
 footer div {
