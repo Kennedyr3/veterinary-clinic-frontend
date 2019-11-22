@@ -11,11 +11,21 @@ label {
     position: relative;
 }
 
+.in {
+    border-radius: 4px; 
+    margin-top: 20px;
+    border:1px solid rgb(223, 223, 223); 
+    height: 35px; 
+    width:360px; 
+    margin-bottom: -6px;
+    margin-left: 5px;
+}
+
 input {
     border-radius: 4px; 
     margin-top: 20px;
     border:1px solid rgb(223, 223, 223); 
-    height: 25px; 
+    height: 35px; 
     width:260px; 
     margin-bottom: -6px;
     margin-left: 5px;
@@ -25,6 +35,14 @@ input {
     border:red;
     background: rgb(11, 59, 122);
     cursor: pointer;
+    position: relative; 
+    margin-left: 700px;
+    margin-top: -80px; 
+    border-radius: 4px;  
+    padding: 5px 10px;
+    color:white;
+    cursor: pointer;
+    position: absolute;
 }
 
 .bt:hover {
@@ -40,10 +58,12 @@ p {
 select.basic {
     width: 200px;
     height: 35px;
+    cursor: pointer;
 }
 select.simple {
     background: #f5f5f5;
     border: 0;
+    
 }
 
 footer {
@@ -54,6 +74,7 @@ footer {
     right: 0;
     color: white;
     display: flex;
+    margin-top: 200px;
 }
 
 footer div {
@@ -62,5 +83,56 @@ footer div {
     height: 110px;
     background-color: rgba(252, 252, 252, 0);
     margin-left: 100px;
-    color:white; top:10%;
+    color:white; 
+    top:10%;
+}
+
+.agenda {
+    border-radius: 5px; 
+    border: 1px solid rgb(240, 240, 240);
+    width: 1000px;
+    height:210px;
+    background: rgb(255, 255, 255);
+    margin-top:90px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.icon {
+    height: 50px; 
+    width: 50px; 
+    position: absolute; 
+    margin-left: 780px;
+    margin-top: 5px;
+}
+
+.botao {
+    margin-left: 700px; 
+    margin-top: -130px; 
+    border-radius: 4px; 
+    padding: 5px 10px;
+    background: rgb(11, 59, 122);
+    color:white; 
+    cursor: pointer;
+    position: absolute;
+}
+
+.agt {
+    margin-bottom: 100px;
+    font-weight: bold; 
+    font-size: 19px;
+    margin-left: 15px;
+    position: relative; 
+    top: 20px;
+}
+
+.cell {
+    margin-left: 290px;
+    top: 170px;
+    position: absolute;
+}
+
+.datahora {
+    margin-left: 400px;
+    margin-top: -142px;
 }
