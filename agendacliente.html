@@ -34,52 +34,50 @@
     </nav>
   </header>
   
-  <div>
-    <div style="border-radius: 10px; border: 1px solid rgb(219, 219, 219); width: 300px; height:475px; background: rgb(255, 255, 255); margin-top:100px; margin-left: 100px; margin-bottom: 100px;">
-      <a style="margin-bottom: 100px; font-weight: bold; font-size: 18px; margin-left: 15px; position: relative; top: 20px;" >Agendamentos</a>
-      <img src="icon/cadeado.png" style="height: 50px; width: 50px; position: absolute; margin-left: 85px; margin-top: 5px;">
-
+  <div style="border-radius: 10px; border: 1px solid rgb(219, 219, 219); width: 300px; height:475px; background: rgb(255, 255, 255); margin-top:100px; margin-left: 100px; margin-bottom: 100px;">
+    <a style="margin-bottom: 100px; font-weight: bold; font-size: 18px; margin-left: 15px; position: relative; top: 20px;" >Agendamentos</a>
+    <img src="icon/cadeado.png" style="height: 50px; width: 50px; position: absolute; margin-left: 85px; margin-top: 5px;">
+    
+    
+    <div style="padding: 10px; margin-top: 20px;">
+      <label for="">Nome:</label><br>
+      <input type="text"  value="" ><br>
+      <label for="">CPF:</label><br>
+      <input type="cpf" name="cpf" min="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)"  value="" ><br>
+      <label for="">Celular:</label><br>
+      <input type="text" value="" name="tel" min="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
       
-      <div style="padding: 10px; margin-top: 20px;">
-        <label for="">Nome:</label><br>
-        <input type="text"  value="" ><br>
-        <label for="">CPF:</label><br>
-        <input type="cpf" name="cpf" min="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)"  value="" ><br>
-        <label for="">Celular:</label><br>
-        <input type="text" value="" name="tel" min="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
-
-        <label for="opt" style="margin-left: 25px; position: relative;">Data:</label><br>
+      <label for="opt" style="margin-left: 25px; position: relative;">Data:</label><br>
+      <p>
+        <select class="basic simple" id="opt" style="margin-left:-10px;">
+          <option value="" selected="selected">Selecionar data</option>
+          <option value="8:00">05/12/2019</option>
+          <option value="10:00" >06/12/2019</option>
+          <option value="11:00" >07/12/2019</option>
+          <option value="13:00" >08/12/2019</option>
+          <option value="14:00" >09/12/2019</option>
+          <option value="15:00" >10/12/2019</option>
+        </select><br>
+        <label for="opt2">Hora:</label><br>
         <p>
-          <select class="basic simple" id="opt" style="margin-left:-10px;">
-            <option value="" selected="selected">Selecionar data</option>
-            <option value="8:00">05/12/2019</option>
-            <option value="10:00" >06/12/2019</option>
-            <option value="11:00" >07/12/2019</option>
-            <option value="13:00" >08/12/2019</option>
-            <option value="14:00" >09/12/2019</option>
-            <option value="15:00" >10/12/2019</option>
-          </select><br>
-          <label for="opt2">Hora:</label><br>
-          <p>
-            <select class="basic simple" id="opt2" style="margin-left:-10px;">
-              <option value="" selected="selected">Selecionar hora</option>
-              <option value="8:00" >8:00</option>
-              <option value="10:00" >10:00</option>
-              <option value="11:00" >11:00</option>
-              <option value="13:00" >13:00</option>
-              <option value="14:00" >14:00</option>
-              <option value="15:00" >15:00</option>
-            </select>
-          </p>      </div>
-          <input type="button" value="Alterar" style="margin-left: 5%; margin-top: -5px; 
-          border-radius: 4px; 
-          padding: 5px 10px; background: rgb(11, 59, 122);
-          color:white; cursor: pointer;">
-          <input class="bt" type="button" alt="cancecar consulta" value="Cancelar" style="position: relative; margin-left: -19.3%; margin-top: 25px; 
-          border-radius: 4px;  
-          padding: 5px 10px;
-          color:white; cursor: pointer; position: absolute;">
-        </div>  
+          <select class="basic simple" id="opt2" style="margin-left:-10px;">
+            <option value="" selected="selected">Selecionar hora</option>
+            <option value="8:00" >8:00</option>
+            <option value="10:00" >10:00</option>
+            <option value="11:00" >11:00</option>
+            <option value="13:00" >13:00</option>
+            <option value="14:00" >14:00</option>
+            <option value="15:00" >15:00</option>
+          </select>
+        </p>      </div>
+        <input type="button" value="Alterar" style="margin-left: 5%; margin-top: -5px; 
+        border-radius: 4px; 
+        padding: 5px 10px; background: rgb(11, 59, 122);
+        color:white; cursor: pointer;">
+        <input class="bt" type="button" alt="cancecar consulta" value="Cancelar" style="position: relative; margin-left: -19.3%; margin-top: 25px; 
+        border-radius: 4px;  
+        padding: 5px 10px;
+        color:white; cursor: pointer; position: absolute;">
       </div>
       
       <footer>
