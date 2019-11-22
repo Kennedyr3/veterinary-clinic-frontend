@@ -20,7 +20,7 @@ section.sec1 {
   height: 650px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(53, 49, 49, 0.25)), url('../img/Maija_Jesse.jpg');
   background-size: cover;
-  margin-bottom: 1140px;
+  margin-bottom: 160vh;
 }
 
 section.cont {
