@@ -9,10 +9,11 @@ body {
   width: 1300px;
   background: #fafafa;
   left: 50%;
-  top: 50%;
+  /* top: 50%; */
   transform: translate(-50%,-50%); 
   position: absolute;
-  margin-top: 800px;
+  margin-top: -600px;
+  /* margin-bottom: 800px; */
 }
 
 section.sec1 {
@@ -20,7 +21,10 @@ section.sec1 {
   height: 650px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.712), rgba(53, 49, 49, 0.25)), url('../img/Maija_Jesse.jpg');
   background-size: cover;
-  margin-bottom: 160vh;
+  text-align: center;
+  position: relative;
+  padding:10px 0;
+  margin-bottom: 1100px;
 }
 
 section.cont {
@@ -214,7 +218,7 @@ footer div {
   position: relative;
   text-align: center;
   padding:100px;
-  z-index: 1;
+  z-index: -1;
 }
 
 #cta input, #cta select, #cta textarea {
