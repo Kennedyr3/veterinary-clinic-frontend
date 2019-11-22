@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 .dropbtn {
-    margin-top:14px;
+    margin-top:15px;
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
     padding: 5px;
@@ -106,6 +106,12 @@ button.black {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: rgb(36, 128, 170)}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(36, 128, 170)
+}
