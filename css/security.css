@@ -16,9 +16,11 @@ input {
     margin-top: 20px;
     border:1px solid rgb(223, 223, 223); 
     height: 25px; 
-    width:260px; 
+    width:248px; 
     margin-bottom: -6px;
     margin-left: 5px;
+    color: rgb(46, 46, 46);
+    padding: 4px 10px;
 }
 
 .bt {

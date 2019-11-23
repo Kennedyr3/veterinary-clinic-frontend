@@ -35,26 +35,34 @@
   </header>
   
   <div>
-    <div style="border-radius: 10px; border: 1px solid rgb(219, 219, 219); width: 300px; height:310px; background: rgb(255, 255, 255); margin-top:100px; margin-left: 100px; margin-bottom: 100px;">
+    <form action="">
+    <div style="border-radius: 10px; border: 2px solid rgb(236, 236, 236); width: 300px; height:385px; background: rgb(255, 255, 255); margin-top:130px; margin-left: 100px; margin-bottom: 100px;">
       <a style="margin-bottom: 100px; font-weight: bold; font-size: 20px; margin-left: 15px; position: relative; top: 20px;" >Acesso e segurança</a>
       
       <img src="icon/lock.png" style="height: 50px; width: 50px; position: absolute; margin-left: 30px; margin-top: 5px;">
       
       <div style="padding: 10px;"><br>
-        <label for="" style="font-weight:bold;">Alterar nome:</label><br>
-        <input type="text"  value="Bunny R" ><br>
-        <label for="" style="font-weight:bold;">Alterar senha:</label><br>
+        <label for="" style="font-weight:bold;">Nome nome:</label><br>
+        <input id="" type="text" value="Bunny R" minlength="5"><br>
+        <label for="" style="font-weight:bold;">CPF:</label><br>
+        <input type="cpf" value="000.000.000-00" type="cpf" name="cpf" minlength="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" ><br>
+        <label for="" style="font-weight:bold;">Senha:</label><br>
         <input type="password" value="12345678"><br>
         <label for="" style="font-weight:bold;">Celular:</label><br>
-        <input type="text" value="88-91001-0000" name="tel" min="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
+        <input type="tell" value="88-91001-0000" name="tel" min="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
       </div>
-      <input type="button" value="Alterar" style="margin-left: 5%; margin-top: 10px; 
+      <input type="submit" value="Alterar" style="margin-left: 5%;
+      margin-top: 10px; 
       border-radius: 5px; 
-      padding: 5px 10px; background: rgb(11, 59, 122);
-      color:white; cursor: pointer;
+      padding: 5px 15px;
+      background: rgb(11, 59, 122);
+      color:white;
+      cursor: pointer;
+      width: 273px;
       height: 35px;">
       
-    </div>  
+    </div>
+  </form>  
   </div>
   
   <footer>

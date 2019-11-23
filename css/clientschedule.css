@@ -29,6 +29,7 @@ input {
     width:260px; 
     margin-bottom: -6px;
     margin-left: 5px;
+    padding: 0 5px;
 }
 
 .bt {
