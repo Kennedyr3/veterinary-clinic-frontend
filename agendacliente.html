@@ -4,29 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="css/agendacliente.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/navbar.css" media="screen" />
   <title>Agendamentos do Cliente</title>
-  <link rel="icon" type="img/png" href="icon/logo2.png"/>
+  <link rel="stylesheet" type="text/css" href="css/clientschedule.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/navbar.css" media="screen" />
+  <link rel="icon" type="img/png" href="icon/logo.png"/>
   <script src="js/masc.js" charset="utf-8"></script>
 </head>
 <body>
   <header>
     <nav style="z-index: 1;">
       <div class="logo" style="cursor: pointer;">
-        <a href="index.html" title="Home Page"><img src="icon/logo2.png" alt="logo"></a>
+        <a href="index.html" title="Home Page"><img src="icon/logo.png" alt="logo"></a>
       </div>
       <ul>
-        <li><a href="index.html" title="Pagina inicial">Inicio</a></li>
+        <li><a href="index.html" title="Pagina Inicial">Inicio</a></li>
         <li><a href="consulta.html">Agendar consultas</a></li>
-        <li><a href="index.html#ancora">Serviços</a></li>
+        <li><a href="#ancora" title="Serviços Disponíveis">Serviços</a></li>
         <div class="dropdown">
           <button class="dropbtn">USERNAME</button>
           <div class="dropdown-content">
-            <a href="cliente.html">Meu Perfil</a>
+            <a href="client.html">Meu Perfil</a>
             <a href="login.html">Sair</a>
-            <a href="sign.html">Entrar</a>
-            <a href="sign.html">Cadastro</a>
+            <a href="login.html">Entrar</a>
+            <a href="signin.html">Cadastro</a>
           </div>
         </div> 
       </ul>
@@ -34,8 +34,8 @@
   </header>
   
   <div class="agenda">
-    <a class="agt">Agendamentos</a>
-    <img class="icon" src="icon/cadeado.png">
+    <a class="agt">Agendamento</a>
+    <img class="icon" src="icon/diary.jpg">
     
     <div style="padding: 10px; margin-top: 20px;">
       <label for="">Nome:</label><br>
@@ -72,7 +72,7 @@
       <input class="botao" type="button" value="Alterar">
       <input class="bt" type="button" alt="cancecar consulta" value="Cancelar">
     </div>
-
+    
     <footer>
       <div style="margin-top: 10px;">
         <span>Design by Kennedy</span>

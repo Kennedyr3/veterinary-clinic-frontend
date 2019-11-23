@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Cadastro</title>
-  <link rel="icon" type="img/png" href="icon/logo2.png" />
-  <link rel="stylesheet" type="text/css" href="css/cadastro.css" media="screen" />
+  <link rel="icon" type="img/png" href="icon/logo.png" />
+  <link rel="stylesheet" type="text/css" href="css/register.css" media="screen" />
   <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
   <script src="js/masc.js" charset="utf-8"></script>
   
@@ -13,19 +13,19 @@
   <section class="sec2"></section>
   
   <form action="#" class="login-form">
-    <a href="index.html" style="cursor: pointer; position: absolute; font-family:sans-serif; padding: 0px; color: rgb(255, 255, 255); font-weight: bold; font-size: 11px; top: -45px; margin-left: 90px;">
+    <a href="" style="cursor: pointer; position: absolute; font-family:sans-serif; padding: 0px; color: rgb(255, 255, 255); font-weight: bold; font-size: 11px; top: -45px; margin-left: 100px;">
       Design by Kennedy
     </a>
-    <img id="back" type="image" src="icon/voltar.png" value="Voltar"  onClick="history.go(-1)" >
+    <img id="back" type="image" src="icon/back.png" value="Voltar"  onClick="history.go(-1)" >
     <h1>Cadastro</h1>
     
     <div class="txtb">
       <input type="text">
-      <span data-placeholder="Nome"placeholder="Ex:123-123-123-00"></span>
+      <span data-placeholder="Nome"></span>
     </div>
     
     <div class="txtb">
-      <input type="text" name="cpf" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)">
+      <input type="text" name="cpf" placeholder="Ex:123-123-123-00" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)">
       <span data-placeholder="Cpf"></span>
     </div>
     
