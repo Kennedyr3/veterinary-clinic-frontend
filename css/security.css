@@ -6,27 +6,35 @@ body {
 }
 
 label {
-    top:20px;
-    margin-left: 5px;
-    position: relative;
+    margin-top: -15px;
+    padding: 30px 10px;
+    /* margin-left: 5px; */
+    position: absolute;
 }
 
 input {
-    border-radius: 4px; 
-    margin-top: 20px;
-    border:1px solid rgb(223, 223, 223); 
-    height: 25px; 
-    width:248px; 
-    margin-bottom: -6px;
-    margin-left: 5px;
-    color: rgb(46, 46, 46);
-    padding: 4px 10px;
+    border-radius: 4px;
+    margin-top: -20px;
+    border:1px solid rgb(223, 223, 223);
+    height: 35px;
+    width:490px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    color: rgb(22, 22, 22);
+    padding: 3px 10px;
+    font-size:15px;
 }
 
+
+
 .bt {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 510px;
     border:red;
     background: rgb(11, 59, 122);
     cursor: pointer;
+    color:white;
 }
 
 .bt:hover {

@@ -18,6 +18,7 @@ nav {
     background: rgba(37, 95, 154, 0.801);
     height: 60px;
     padding:0px 50px;
+    border-bottom: 0.6px solid rgba(255, 255, 255, 0.836);
 }
 
 nav .logo {
@@ -52,20 +53,16 @@ nav ul li a {
 
 .dropbtn {
     margin-top:15px;
+    margin-left: 20px;
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
-    padding: 5px;
+    padding: 5px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 .dropbtn a {
     color:white;
-}
-
-.dropbtn a:hover {
-    color:#fff;
-    background:rgb(36, 128, 170);
 }
 
 .dropdown {
@@ -86,7 +83,7 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
     color:#fff;
-    background:rgb(36, 128, 170);
+    background:rgb(11, 63, 87);
 }
 
 button:hover, .active {
@@ -113,5 +110,5 @@ button.black {
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: rgb(36, 128, 170)
+    background:rgb(11, 63, 87);
 }
