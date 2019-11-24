@@ -13,7 +13,7 @@ body {
   /* top: 50%; */
   transform: translate(-50%,-50%); 
   position: absolute;
-  margin-top: -620px;
+  margin-top: -600px;
   /* margin-bottom: 800px; */
 }
 
@@ -131,6 +131,12 @@ section.cont2 p {
   text-align: center;
   border-radius: 10px;
   position: absolute;
+  padding: 10px 5px;
+}
+.bt {
+  padding: 5px 15px; border-radius: 5px; 
+        color: white;margin-left: 32%; margin-top:130px; 
+        background-color:rgb(18, 72, 134); cursor: pointer; font-size: 15px;
 }
 
 #textopublic span {
