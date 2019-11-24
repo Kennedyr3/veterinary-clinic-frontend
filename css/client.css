@@ -60,5 +60,7 @@ footer div {
     height: 110px;
     background-color: rgba(252, 252, 252, 0);
     margin-left: 100px;
-    color:white; top:10%;
+    color:white;
+    top:10%;
+    line-height: 23px;
 }
