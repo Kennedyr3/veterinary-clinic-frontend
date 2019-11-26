@@ -134,8 +134,9 @@ section.cont2 p {
   padding: 10px 5px;
 }
 .bt {
-  padding: 5px 15px; 
+  padding: 6px 15px; 
   border-radius: 5px; 
+  border: none;
   color: white;
   margin-left: 32%;
   margin-top:130px; 
