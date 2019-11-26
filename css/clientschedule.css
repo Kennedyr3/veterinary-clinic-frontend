@@ -95,9 +95,12 @@ footer div {
     width: 1000px;
     height:210px;
     background: rgb(255, 255, 255);
-    margin-top:90px;
-    margin-left: 150px;
+    margin-top:200px;
+    /* margin-left: 150px; */
     margin-bottom: 50px;
+    margin-left: 50%;
+  /* border-radius: 30px 30px 0px 0px; */
+  transform: translate(-50%,-50%); 
 }
 
 .icon {
@@ -118,6 +121,50 @@ footer div {
     cursor: pointer;
     position: absolute;
 }
+
+.botao {
+    margin-left: 700px; 
+    margin-top: -130px; 
+    position: absolute;
+    font-size: 16px;
+    display: block;
+    width: 103px;
+    height: 33px;
+    border: none;
+    background: linear-gradient(120deg,#3498db,#79e0ff,#3498db);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+  }
+  
+  .botao:hover{
+    background-position: right;
+  }
+
+  .bt {
+    margin-left: 700px;
+    margin-top: -80px;  
+    position: absolute;
+    font-size: 16px;
+    display: block;
+    width: 103px;
+    height: 33px;
+    border: none;
+    background: linear-gradient(120deg,#db3434,#ff7070,#db3434);
+    background-size: 200%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    border-radius: 5px;
+  }
+  
+  .bt:hover{
+    background-position: right;
+  }
 
 .agt {
     margin-bottom: 100px;
