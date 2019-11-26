@@ -8,8 +8,8 @@ body {
 .contain {
     border-radius: 10px;
     border: 1px solid rgb(226, 226, 226);
-    width: 280px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     background: rgb(255, 255, 255);
     margin-top:100px;
     margin-left: 100px;
@@ -19,11 +19,11 @@ body {
 .contain2 {
     border-radius: 10px;
     border: 1px solid rgb(226, 226, 226);
-    width: 280px;
-    height: 100px;
+    width: 300px;
+    height: 120px;
     background: rgb(255, 255, 255);
-    margin-top:-103px;
-    margin-left: 400px;
+    margin-top:-123px;
+    margin-left: 430px;
 }
 
 .agendamento {
@@ -42,7 +42,7 @@ body {
     background: rgb(255, 255, 255);
     width: 260px;
     height: 30px;
-    margin-top: 20px;
+    margin-top: 23px;
 }
 
 footer {
