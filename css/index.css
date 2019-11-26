@@ -5,6 +5,11 @@ body {
   background-color:#fafafa;
 }
 
+@font-face {
+  font-family: Courgette;
+  src: url('../font/Courgette-Regular.ttf');
+}
+
 .body {
   width: 1300px;
   background: #fafafa;
