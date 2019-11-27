@@ -5,6 +5,11 @@ body {
     background-color:#fafafa;
 }
 
+@font-face {
+    font-family: Courgette;
+    src: url('../font/Courgette-Regular.ttf');
+}
+
 .contain {
     border-radius: 10px;
     border: 1px solid rgb(226, 226, 226);
@@ -62,5 +67,7 @@ footer div {
     margin-left: 100px;
     color:white;
     top:10%;
+    line-height: 23px;
+    font-family: Courgette;
     line-height: 23px;
 }
