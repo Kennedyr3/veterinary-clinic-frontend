@@ -8,7 +8,7 @@ body {
 @font-face {
     font-family: Courgette;
     src: url('../font/Courgette-Regular.ttf');
-  }
+}
 
 .in {
     border-radius: 4px; 
