@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Courgette;
+  src: url('../font/Courgette-Regular.ttf');
+}
+
 #loginimg {
   position: absolute;
   height: 300px;
