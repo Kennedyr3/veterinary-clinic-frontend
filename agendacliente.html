@@ -52,14 +52,14 @@
       <img class="icon" src="icon/diary.jpg">
       
       <div style="padding: 10px; margin-top: 20px;">
-        <label for="">Nome:</label><br>
+        <label for="in" style="top:38px; padding: 10px; position: relative;" >Nome:</label>
         <input class="in" type="text" value="" ><br>
-        <label for="">Celular:</label><br>
-        <input class="in" type="text" value="" name="tel" minlength="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
+        <label for="in2" style="top:73px; padding: 10px; position: relative;">Celular:</label>
+        <input class="in2" type="text" value="" name="tel" minlength="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
         
         <div class="datahora">
-          <label for="opt" style="margin-left: 25px; position: relative;">Data:</label><br>
           <p>
+            <label for="opt" style="padding:0px 20px 0px 0px;">Data:</label>
             <select class="basic simple" id="opt" style="margin-left:-10px;">
               <option value="" selected="selected">Selecionar data</option>
               <option value="8:00">05/12/2019</option>
@@ -69,9 +69,10 @@
               <option value="14:00" >09/12/2019</option>
               <option value="15:00" >10/12/2019</option>
             </select><br>
-            <label for="opt2">Hora:</label><br>
+            
             <p>
-              <select class="basic simple" id="opt2" style="margin-left:-10px;">
+              <label for="opt2" style="padding:0px 20px 0px 0px;">Hora:</label>
+              <select class="basic simple" id="opt2" style="margin-left:-10px;margin-top:-0px;">
                 <option value="" selected="selected">Selecionar hora</option>
                 <option value="8:00" >8:00</option>
                 <option value="10:00" >10:00</option>
@@ -89,7 +90,7 @@
     </form>
     
     <footer>
-      <div style="margin-top: 10px;">
+      <div style="margin-top: 10px; font-family: Courgette;">
         <span>Designed by Kennedy</span>
         <span>Industries Kennedy</span>
         <span>Production by Kennedy</span>
