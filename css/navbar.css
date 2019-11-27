@@ -1,9 +1,15 @@
 body {
     margin:0;
     padding:0;
-    font-family: sans-serif;
     background-color:#fafafa;
+    
 }
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
 
 /* Navbar */
 nav {
@@ -18,8 +24,14 @@ nav {
     background: rgba(37, 95, 154, 0.801);
     height: 60px;
     padding:0px 50px;
+    font-family: 'OpenSans-Regular', sans-serif;
     border-bottom: 0.6px solid rgba(0, 174, 255, 0.548);
 }
+
+nav.black {
+    background:#255F9A;
+    
+  }
 
 nav .logo img {
     float:left;
@@ -40,28 +52,30 @@ nav ul li {
 
 nav ul li a {
     line-height: 60px;
-    color:#ffffff;
+    color:rgba(255, 255, 255, 0.7);
     padding: 5px 20px;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: .5;
 }
 
 nav ul li a:hover {
-    color:#fff;
-    background:rgb(11, 63, 87);
+    color:rgb(255, 255, 255);
+    /* background:rgb(11, 63, 87); */
 }
 
 .dropbtn {
-    margin-top:15px;
+    font-family: 'OpenSans-Regular', sans-serif;
+    margin-top:13px;
     margin-left: 20px;
     background-color: rgba(255, 255, 255, 0);
-    color: rgb(255, 255, 255);
+    color:rgba(255, 255, 255, 0.7);
     padding: 5px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
+
 .dropbtn a {
     color:white;
 }
@@ -105,5 +119,6 @@ button.black {
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background:rgb(11, 63, 87);
+    color:white;
+    /* background:rgb(11, 63, 87); */
 }
