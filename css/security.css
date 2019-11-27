@@ -4,16 +4,20 @@ body {
     font-family: sans-serif;
     background-color:#fafafa;
 }
+
+@font-face {
+    font-family: Courgette;
+    src: url('../font/Courgette-Regular.ttf');
+}
+
 form {
-    margin-left: 42%;
-  margin-top: 22%;
-  transform: translate(-50%,-50%);
+    margin-left: 15%;
+    transform: translate (-50%,-50%);
 }
 
 label {
     margin-top: -15px;
     padding: 30px 10px;
-    /* margin-left: 5px; */
     position: absolute;
 }
 
@@ -30,22 +34,8 @@ input {
     font-size:15px;
 }
 
-
-/* 
-.bt {
-    position: absolute;
-    margin-top: 10px;
-    margin-left: 510px;
-    border:red;
-    background: rgb(11, 59, 122);
-    cursor: pointer;
-    color:white;
-} */
-
 .bt:hover {
     background-color:red;
-    /* -webkit-filter: blur(5px);
-    filter: blur(5px); */
 }
 
 .btalt {
@@ -57,20 +47,20 @@ input {
     width: 90px;
     height: 33px;
     border: none;
-    background: linear-gradient(120deg,#3498db,#68dcff,#3498db);
+    background: linear-gradient(120deg,#255F9A,#09c6ff,#255F9A);
     background-size: 200%;
     color: #fff;
     outline: none;
     cursor: pointer;
     transition: .5s;
     border-radius: 5px;
-  }
-  
-  .btalt:hover{
-    background-position: right;
-  }
+}
 
-  .bt {
+.btalt:hover{
+    background-position: right;
+}
+
+.bt {
     margin-top: 1px;
     margin-left: 510px;  
     position: absolute;
@@ -79,18 +69,18 @@ input {
     width: 103px;
     height: 33px;
     border: none;
-    background: linear-gradient(120deg,#db3434,#ff5b5b,#d82323);
+    background: linear-gradient(120deg,#d12121,#ff7070,#d12121);
     background-size: 200%;
     color: #fff;
     outline: none;
     cursor: pointer;
     transition: .5s;
     border-radius: 5px;
-  }
-  
-  .bt:hover{
+}
+
+.bt:hover{
     background-position: right;
-  }
+}
 
 p {
     margin: 20px
@@ -124,4 +114,6 @@ footer div {
     color:white;
     top:10%;
     line-height: 23px;
+    font-family: Courgette;
+
 }

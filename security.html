@@ -35,28 +35,26 @@
   </header>
   
   <form action="">
-    <div>
-      <div style="border-radius: 10px; border: 2px solid rgb(236, 236, 236); width: 650px; height:350px; background: rgb(255, 255, 255); margin-top:120px; margin-left: 150px; margin-bottom: 100px; padding: 5px;">
-        <a style="margin-bottom: 100px; font-weight: bold; font-size: 20px; margin-left: 15px; position: relative; top: 5px;" >Acesso e segurança</a>
+    <div style="border-radius: 10px; border: 2px solid rgb(236, 236, 236); width: 650px; height:350px; background: rgb(255, 255, 255); margin-top:120px; margin-left: 150px; margin-bottom: 100px; padding: 15px;">
+      <a style="margin-bottom: 100px; font-weight: bold; font-size: 20px; margin-left: 15px; position: relative; top: 5px;" >Acesso e Segurança</a>
+      
+      <img class="hv" src="icon/lock.png" style="height: 50px; width: 50px; position: absolute; margin-left: 390px; margin-top: 1px;">
+      
+      <div style="padding: 10px; margin-top:15px;"><br>
+        <label for="">Nome:</label><br>
+        <input id="" type="text" value="Bunny R" minlength="5"><br>
+        <label for="">CPF:</label><br>
+        <input type="cpf" value="000.000.000-00" type="cpf" name="cpf" minlength="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" ><br>
+        <label for="">Celular:</label><br>
+        <input type="tell" value="88-91001-0000" name="tel" min="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
+        <label for="">Senha:</label><br>
+        <input type="password" value="12345678"><br>
+      </div>
+      <input class="btalt" type="submit" value="Alterar">
+      
+      <input class="bt" type="reset" alt="cancelar consulta" value="Cancelar" style="width: 90px;">
+      <for>
         
-        <img class="hv" src="icon/lock.png" style="height: 50px; width: 50px; position: absolute; margin-left: 390px; margin-top: 1px;">
-        
-        <div style="padding: 10px; margin-top:15px;"><br>
-          <label for="">Nome:</label><br>
-          <input id="" type="text" value="Bunny R" minlength="5"><br>
-          <label for="">CPF:</label><br>
-          <input type="cpf" value="000.000.000-00" type="cpf" name="cpf" minlength="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" ><br>
-          <label for="">Celular:</label><br>
-          <input type="tell" value="88-91001-0000" name="tel" min="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
-          <label for="">Senha:</label><br>
-          <input type="password" value="12345678"><br>
-        </div>
-        <input class="btalt" type="submit" value="Alterar">
-        
-        <input class="bt" type="reset" alt="cancelar consulta" value="Cancelar" style="width: 90px;">
-        <for>
-          
-        </div>
       </div>
     </form>
     
