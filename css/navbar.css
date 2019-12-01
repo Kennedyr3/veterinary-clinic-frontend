@@ -30,13 +30,12 @@ nav {
 
 nav.black {
     background:#255F9A;
-    
   }
 
 nav .logo img {
     float:left;
-    margin-top:5px;
-    height: 50px;
+    margin-top: -4px;
+    height: 70px;
 }
 
 nav ul {
