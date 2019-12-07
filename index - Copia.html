@@ -20,7 +20,82 @@
       }
     });
   </script>
-  
+  <style>
+    
+    .container {
+      width: 1000px;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .container .card {
+      position: relative;
+      /* padding: -13px 0; */
+    }
+    
+    .container .card .face {
+      width: 280px;
+      height: 200px;
+      transition: 0.5s;
+      margin-left: -50px;
+    }
+    
+    .container .card .face.face1 {
+      position: relative;
+      background: #255F9A;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      border-radius: 10px 10px 0 0;
+    }
+    
+    .container .card .face.face1 .content {
+      opacity: 0.6;
+      transition: 0.5;
+    }
+    
+    .container .card:hover .face.face1 .content {
+      opacity: 1;
+    }
+    
+    .container .card:hover .face.face1 .content img {
+      max-width: 100px;
+    }
+    
+    .container .card .face.face2 {
+      position: relative;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 25px;
+      box-sizing: border-box;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+      border-radius: 0 0 10px 10px;
+    }
+    
+    .container.card .face.face2 .content p {
+      margin: 0;
+      padding: 0;
+    }
+    .container .card .face.face2 .content a {
+      margin: 15px 0 0;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 900px;
+      color: #333;
+      padding: 5px;
+      border: 1px solid #333;
+      margin-left: 33%;
+    }
+    
+    .container .card .face.face2 .content a:hover {
+      background: #333;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -84,83 +159,84 @@
     </section>
     
     <section class="cont2">
-      <img src="icon/pata.png" alt="" style="margin-left: 100px; margin-top: 31px; height: 35px; position: absolute;">
-      <h1 style="margin-left: 130px; padding: 30px;">Nossos Serviços:</h1>
-      
-      <div class="card">
-        <img id="cir" src="img/rab.jpg">
-        <div style="width: 205px; height: 90px; text-align: center; position: relative;">
-          <p style="border-radius: 10px; font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%; margin-bottom: 50px; color:rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.692); padding: 3px;">
-            Cirurgias
-          </p>
+      <img src="icon/pata.png" alt="" style="margin-left: 100px; margin-top: 18px; height: 35px; position: absolute;">
+      <h1 style="margin-left: 130px; padding: 20px;">Nossos Serviços:</h1>
+      <div class="container">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="img/codrab.jpg" style="height: 100px;">
+              <h3>Design</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Se necessário, realizamos vários procedimentos 
+                cirúgicos em nossa clínica. Agende uma consulta.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="sketch.png">
+              <h3>Design</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Aque também é lugar de embelezar nossos lindo pets. Confira
+                agende o seu horário.
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="sketch.png">
+              <h3>Design</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Realize consulta com seu pet, cachorro, gato, coelho os melhores serviços
+                para o seu bichinho
+              </p>
+              <a href="#">read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="img/codrab.jpg" style="height: 100px;">
+              <h3>Design</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p>
+                Se necessário, realizamos vários procedimentos 
+                cirúgicos em nossa clínica. Agende uma consulta.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
         </div>
         
-        <div id="textopublic">
-          <span>
-            Se necessário, realizamos vários procedimentos 
-            cirúgicos em nossa clínica.Agende uma consulta.
-          </span>
-        </div>
-        <input title="Veja Nossos Serviços" type="submit" value="Saiba mais" class="bt">
-      </div><!-- Fim da div card-->
-      
-      <div class="card2">
-        <img id="cir" src="img/dog2.jpg">
-        <div style="width: 205px; height: 90px; text-align: center; position: relative;">
-          <p style="border-radius: 10px;font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.692); padding: 3px;">
-            Banho e Tosa
-          </p>
-        </div>
-        
-        <div id="textopublic">
-          <span>
-            Aque também é lugar de embelezar nossos lindo pets. Confira
-            agende o seu horário.
-          </span>
-        </div>
-        <input title="Veja Nossos Serviços" type="submit" value="Saiba mais" class="bt">
-      </div><!-- Fim da div card-->
-      
-      <div class="card3">
-        <img id="cir" src="img/cat.jpg">
-        <div style="width: 205px; height: 90px; text-align: center; position: relative;">
-          <p style="border-radius: 10px;font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.692); padding: 3px;">
-            Cirurgias
-          </p>
-        </div>
-        
-        <div id="textopublic">
-          <span>
-            Se necessário, realizamos vários procedimentos 
-            cirúgicos em nossa clínica.Agende uma consulta.
-          </span>
-        </div>
-        
-        <input title="Veja Nossos Serviços" type="submit" value="Saiba mais" class="bt">
-      </div><!-- Fim da div card-->
-      
-      <div class="card4">
-        <img id="cir" src="img/codrab.jpg">
-        <div style="width: 205px; height: 90px; text-align: center; position: relative;">
-          <p style="border-radius: 10px; font-size: 25px; font-weight: bold; margin-top:-290px; margin-left: 30%;margin-bottom: 50px; color:rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.692); padding: 3px;">
-            Consultas
-          </p>
-        </div>
-        
-        <div id="textopublic">
-          <span>
-            Realize consulta com seu pet, cachorro, gato, coelho os melhores serviços
-            para o seu bichinho
-          </span>
-        </div>
-        
-        <input title="Veja Nossos Serviços" type="submit" value="Saiba mais" class="bt">
-      </div><!-- Fim da div card-->
+      </div>
     </section>
   </div><!-- divbody -->
   
   <!-- CTA -->
-  <section id="cta" class="wrapper" style="margin-bottom:30px; ">
+  <section id="cta" class="wrapper" style="margin-bottom:30px; top: 10px;">
     <div class="inner">
       <img src="icon/location.png" alt="" style="height: 35px;">
       <h1>Nossa Localização</h1>

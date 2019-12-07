@@ -6,17 +6,14 @@
   <link rel="icon" type="img/png" href="icon/logo.png" />
   <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
   <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-  <script src="js/masc.js" charset="utf-8"></script>
+  <script src="js/mask.js" charset="utf-8"></script>
 </head>
 <body>
   <section class="sec1">
-    <!-- <a href="index.html" style="cursor: pointer; position: absolute; font-family:sans-serif; padding: 10px; color: rgb(11, 120, 192); font-weight: bold;">
-      Design by Kennedy
-    </a> -->
   </section>
   <form action="index.html" class="login-form">
     <img src="icon/logo.png" style="height: 80px; position: absolute; top: -95px; margin-left:110px;">
-
+    
     <a style="font-family: Courgette; cursor: pointer; position: relative; color: rgb(11, 120, 192); font-weight: bold; font-size: 11px; top: -74px; margin-left: 98px;">
       Designed by Kennedy
     </a>
@@ -24,8 +21,8 @@
     <h1>Login</h1>
     
     <div class="txtb">
-      <input type="cpf" name="cpf" minlength="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)" >
-      <span data-placeholder="Cpf:" ></span>
+      <input type="cpf" name="cpf" minlength="14" maxlength="14" OnKeyPress="formatar('###.###.###-##', this); return onlynumber();">
+      <span data-placeholder="CPF:" ></span>
     </div>
     
     <div class="txtb">
@@ -52,6 +49,6 @@
     });
     
   </script>
-
+  
 </body>
 </html>
