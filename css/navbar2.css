@@ -25,15 +25,17 @@ nav {
     height: 60px;
     padding:0px 50px;
     font-family: 'OpenSans-Regular', sans-serif;
-    border-bottom: 0.6px solid rgba(0, 174, 255, 0.548);
+    z-index: 0;
+    /* border-bottom: 0.6px solid rgba(0, 174, 255, 0.548); */
 }
 
-nav.black {
+/* nav.black {
     background:#255F9A;
-  }
+  } */
 
 nav .logo img {
     float:left;
+    margin-left: 180px;
     margin-top: 2.5px;
     height: 55px;
 }
