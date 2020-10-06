@@ -21,7 +21,7 @@ nav {
     padding: 10px 100px;
     box-sizing: border-box;
     transition:.5s;
-    background: rgba(37, 95, 154);
+    background: rgba(37, 95, 154, 0.801);
     height: 60px;
     padding:0px 50px;
     font-family: 'OpenSans-Regular', sans-serif;
