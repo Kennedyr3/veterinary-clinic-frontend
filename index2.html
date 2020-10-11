@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/index2.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="css/navbar2.css" media="screen" />
     <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-    <script type="text/javascript">
+    {# <script type="text/javascript">
         $(window).on('scroll', function(){
             if ($(window).scrollTop()) {
                 $('nav').addClass('black');
@@ -19,11 +19,11 @@
                 $('nav').removeClass('black');
             }
         });
-    </script>
+    </script> #}
 </head>
 <body>
     <header>
-        <nav style="z-index: 1;">
+        <nav>
             <div class="logo" style="cursor: pointer;">
                 <a href="index.html" title="Home Page"><img src="icon/logo.png" alt="logo"></a>
             </div>
@@ -93,7 +93,7 @@
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <img id="cir" src="img/rab.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
+                            <img id="image-card" src="img/rab.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
                             <h3>Cirurgias</h3>
                         </div>
                     </div>
@@ -103,14 +103,14 @@
                                 Se necessário, realizamos vários procedimentos 
                                 cirúgicos em nossa clínica. Agende uma consulta.
                             </p>
-                            <a class="bt" href="#">Saiba mais</a>
+                            <a class="button" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <img id="cir" src="img/dog2.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
+                            <img id="image-card" src="img/dog2.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
                             <h3>Banho</h3>
                         </div>
                     </div>
@@ -120,14 +120,14 @@
                                 Aqui também é lugar de embelezar nossos lindos pets.
                                 Confira e agende o seu horário.
                             </p>
-                            <a class="bt" href="#">Saiba mais</a>
+                            <a class="button" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <img id="cir" src="img/cat.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
+                            <img id="image-card" src="img/cat.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
                             <h3>Tosa</h3>
                         </div>
                     </div>
@@ -137,14 +137,14 @@
                                 Seu pet ainda mais bonito, cachorro, gato, 
                                 coelho os melhores serviços para o seu pet
                             </p>
-                            <a class="bt" href="#">Saiba mais</a>
+                            <a class="button" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
-                            <img id="cir" src="img/codrab.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
+                            <img id="image-card" src="img/codrab.jpg" style="border-radius: 10px 10px 0 0; height: 200px; margin-top: 59px; width: 280px;">
                             <h3>Consultas</h3>
                         </div>
                     </div>
@@ -154,14 +154,13 @@
                                 Se necessário, realizamos vários procedimentos 
                                 cirúgicos em nossa clínica. Agende uma consulta.
                             </p>
-                            <a class="bt" href="#">Saiba mais</a>
+                            <a class="button" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    </div>
-    <!--Fim corpo, class wrapper -->
+    </div><!--Fim corpo, class wrapper -->
     
     <!-- CTA -->
     <section id="cta" class="wrapper" style="margin-bottom: 100px; top: 90px;">
@@ -176,9 +175,6 @@
     <footer>
         <div style="font-family: Courgette;">
             <span>Designed by Kennedy</span>
-            <span>Industries Kennedy</span>
-            <span>Production by Kennedy</span>
-            <span>Shelby limited</span>
         </div>
     </footer>
     

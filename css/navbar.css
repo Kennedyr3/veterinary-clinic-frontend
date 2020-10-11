@@ -21,19 +21,21 @@ nav {
     padding: 10px 100px;
     box-sizing: border-box;
     transition:.5s;
-    background: rgba(37, 95, 154, 0.801);
+    background: rgba(37, 95, 154);
     height: 60px;
     padding:0px 50px;
     font-family: 'OpenSans-Regular', sans-serif;
-    border-bottom: 0.6px solid rgba(0, 174, 255, 0.548);
+    z-index: 2;
+    /* border-bottom: 0.6px solid rgba(0, 174, 255, 0.548); */
 }
 
-nav.black {
+/* nav.black {
     background:#255F9A;
-  }
+  } */
 
 nav .logo img {
     float:left;
+    margin-left: 180px;
     margin-top: 2.5px;
     height: 55px;
 }
