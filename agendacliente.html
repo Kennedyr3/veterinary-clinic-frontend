@@ -1,16 +1,17 @@
- <!DOCTYPE html>
- <html lang="br">
- <head>
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Agendamentos do Cliente</title>
-  <link rel="icon" type="img/png" href="icon/logo.png"/>
+  <link rel="icon" type="img/png" href="icon/logo.png" />
   <link rel="stylesheet" type="text/css" href="css/clientschedule.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="css/navbar.css" media="screen" />
   <script src="js/mask.js" charset="utf-8"></script>
   <script src="js/jquery-3.4.1.min.js" charset="utf-8"></script>
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     $(window).on('scroll', function(){
       if ($(window).scrollTop()) {
         $('nav').addClass('black');
@@ -20,8 +21,9 @@
         $('nav').removeClass('black');
       }
     });
-  </script>
+  </script> -->
 </head>
+
 <body>
   <header>
     <nav style="z-index: 1;">
@@ -41,62 +43,59 @@
             <a href="adm.html">Administrador</a>
             <a href="login.html">Sair</a>
           </div>
-        </div> 
+        </div>
       </ul>
     </nav>
   </header>
-  
-  <form action="">
+
+  <a class="titulo">Agendamento</a>
+
     <div class="agenda">
-      <a class="agt">Agendamento</a>
-      <img class="icon" src="icon/diary.jpg">
-      
-      <div style="padding: 10px; margin-top: 20px;">
-        <label for="in" style="top:38px; padding: 10px; position: relative;" >Nome:</label>
-        <input class="in" type="text" value="" ><br>
-        <label for="in2" style="top:73px; padding: 10px; position: relative;">Celular:</label>
-        <input class="in2" type="text" value="" name="tel" minlength="12" maxlength="12" OnKeyPress="formatar('##-####-####', this)" ><br>
-        
-        <div class="datahora">
-          <p>
-            <label for="opt" style="padding:0px 20px 0px 0px;">Data:</label>
-            <select class="basic simple" id="opt" style="margin-left:-10px;">
+      <!-- <img class="icon" src="icon/diary.jpg"> -->
+
+      <form  style="padding: 10px; margin-top: 20px; display: flex; flex-direction: row;">
+        <label for="nm" style="padding: 10px;">Nome:</label>
+        <input id="nm" class="nome" type="text" value=""><br>
+        <label for="cl" style="padding: 10px;">Celular:</label>
+        <input id="cl" class="celular" type="text" value="" name="tel" minlength="12" maxlength="12"
+          OnKeyPress="formatar('##-####-####', this)"><br>
+        <!-- in in2 -->
+          <p style=" margin-left: 10px;">
+            <label for="opt">Data:</label>
+            <select class="basic simple" id="opt">
               <option value="" selected="selected">Selecionar Data</option>
               <option value="8:00">05/12/2019</option>
-              <option value="10:00" >06/12/2019</option>
-              <option value="11:00" >07/12/2019</option>
-              <option value="13:00" >08/12/2019</option>
-              <option value="14:00" >09/12/2019</option>
-              <option value="15:00" >10/12/2019</option>
+              <option value="10:00">06/12/2019</option>
+              <option value="11:00">07/12/2019</option>
+              <option value="13:00">08/12/2019</option>
+              <option value="14:00">09/12/2019</option>
+              <option value="15:00">10/12/2019</option>
             </select><br>
-            
-            <p>
-              <label for="opt2" style="padding:0px 20px 0px 0px;">Hora:</label>
-              <select class="basic simple" id="opt2" style="margin-left:-10px;margin-top:-0px;">
-                <option value="" selected="selected">Selecionar Hora</option>
-                <option value="8:00" >8:00</option>
-                <option value="10:00" >10:00</option>
-                <option value="11:00" >11:00</option>
-                <option value="13:00" >13:00</option>
-                <option value="14:00" >14:00</option>
-                <option value="15:00" >15:00</option>
-              </select>
-            </p>
-          </div>
-        </div>
-        <input class="botao" type="submit" value="Alterar">
-        <input class="bt" type="reset" alt="cancelar consulta" value="Cancelar">
-      </div>
-    </form>
-    
-    <footer>
-      <div style="margin-top: 10px; font-family: Courgette;">
-        <span>Designed by Kennedy</span>
-        <span>Industries Kennedy</span>
-        <span>Production by Kennedy</span>
-      </div>
-    </footer>
-  </body>
-  </html>
+          </p>
+          <p  style=" margin-left: 10px;">
+            <label for="opt2">Hora:</label>
+            <select class="basic simple" id="opt2" >
+              <option value="" selected="selected">Selecionar Hora</option>
+              <option value="8:00">8:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+            </select>
+          </p>
+          <input class="alterar" type="submit" value="Alterar">
+          <input class="cancelar" type="reset" alt="cancelar consulta" value="Cancelar">
+      </form>
+    </div>
+
+  <footer>
+    <div style="margin-top: 10px; font-family: Courgette;">
+      <span>Designed by Kennedy</span>
+    </div>
+  </footer>
+
+</body>
+</html>
 </body>
 </html>
